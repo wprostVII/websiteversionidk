@@ -49,8 +49,8 @@
 }
 
 @keyframes marqueeDown {
-  0% { transform: translateY(-200%);}
-  100% { transform: translateY(1000%);}
+  0% { transform: translateY(-400%);}
+  100% { transform: translateY(1400%);}
 }
 
 @layer components {
