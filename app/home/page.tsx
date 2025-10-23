@@ -61,7 +61,7 @@ export default function Home() {
                             
                 </div>
 
-                <div className="my-2 ml-5 mr-2 xs:ml-0 xs:mr-2 col-span-4 grid-rows-2 overflow-hidden">
+                <div className="my-2 ml-5 mr-2 xs:ml-0 lg:ml-0 xs:mr-2 col-span-4 grid-rows-2 overflow-hidden">
 
                     <div className="inset-shadow-sm inset-shadow-[#3c4343] bg-linear-to-b from-[#3c4343] to-[#535c5c] h-4/7">
                         <div className="bg-[#6e7979] text-[#eff7f7] font-[newScience] pt-1 pb-1 pl-2 items-center grid grid-cols-2 border-l-2 border-t-2 border-r-2 border-[#3c4343] transition hover:bg-[#8a9696] duration-300 ease-in-out ">
