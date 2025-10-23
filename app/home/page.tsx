@@ -118,11 +118,12 @@ export default function Home() {
                                 </div>
                             <p className="textMoveFive font-[ubuntu] text-[#eff7f7] px-2 pt-1">Add my button to your site!</p>
                             <div className="flex justify-center items-center pt-5">
-                                <textarea id="buttonThing" defaultValue={"Image URL goes here lorem lorem lorem lorem"} className="textMoveSix h-1/5 w-3/4 px-1 resize-none border-2 border-[#3c4343] bg-[#6e7979]"/>
-                            </div>
-                            <div className="flex justify-center items-center">
                                 <img src="/button.gif" alt="Button Image" className="w-[81px]"/>
                             </div>
+                            <div className="flex justify-center items-center pt-5">
+                                <textarea id="buttonThing" defaultValue={"Image URL goes here lorem lorem lorem lorem"} className="textMoveSix h-1/5 w-3/4 px-1 resize-none border-2 border-[#3c4343] bg-[#6e7979]"/>
+                            </div>
+                            
                             
                             
                         </div>
