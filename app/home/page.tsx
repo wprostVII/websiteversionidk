@@ -1,9 +1,18 @@
-import Link from 'next/link'
+import type { Metadata } from "next";
+import Link from 'next/link';
+import SnowFalling from '../extras/snow';
+
+export const metadata: Metadata = {
+  title: "Home Page",
+};
 
 export default function Home() {
   return (
-    <div className="bg-[#535c5c] flex justify-center items-center h-screen w-screen">
-        <div className="bg-[#8a9696] w-screen sm:w-6/7 md:w-3/4 lg:w-1/2 lg:w-min-1/2 h-screen">
+    <div className="bg-[#535c5c] flex justify-center items-center h-screen w-screen z-0 overflow-hidden">
+        <div className="absolute block w-screen h-screen z-1">
+                <SnowFalling />
+        </div>
+        <div className="bg-[#8a9696] sm:shadow-[0px_0_20px_rgba(0,0,0,0.5)] w-screen sm:w-6/7 md:w-3/4 lg:w-1/2 lg:w-min-1/2 h-screen z-2">
             
             <div className="flex justify-center items-center h-1/8">
                 <div className="flex justify-end items-end pr-2 bg-[url(/knightkneel.png)] bg-cover bg-right w-6/7 h-2/3">
@@ -52,17 +61,17 @@ export default function Home() {
                             
                 </div>
 
-                <div className="my-2 ml-2 sm:ml-0 mr-2 col-span-4 grid-rows-2 overflow-hidden">
+                <div className="my-2 ml-5 mr-2 xs:ml-0 xs:mr-2 col-span-4 grid-rows-2 overflow-hidden">
 
-                    <div className="bg-linear-to-b from-[#3c4343] to-[#535c5c] h-4/7">
+                    <div className="inset-shadow-sm inset-shadow-[#3c4343] bg-linear-to-b from-[#3c4343] to-[#535c5c] h-4/7">
                         <div className="bg-[#6e7979] text-[#eff7f7] font-[newScience] pt-1 pb-1 pl-2 items-center grid grid-cols-2 border-l-2 border-t-2 border-r-2 border-[#3c4343] transition hover:bg-[#8a9696] duration-300 ease-in-out ">
                             <p className="titleSide">About me</p>
                             <p className="flex justify-end items-end pr-2">⋮⋮⋮⋮</p>
                         </div>
-                        <div className="h-full pb-10 overflow-scroll text-[13px] sm:text-base">
-                            <p className="textMove font-[ubuntu] text-[#eff7f7] pt-1 px-2">I'm known as wprostVII and Cement Mix but you can call me Prost or Cement.</p>
+                        <div className="h-full overflow-hidden text-[13px] sm:text-base">
+                            <p className="textMove font-[ubuntu] text-[#eff7f7] pt-1 px-2">Welcome to my little corner of the internet! ˎˊ˗</p>
                             <p className="textMoveTwo font-[ubuntu] text-[#8a9696] px-2">Feel free to navigate around my website.</p>
-                            <p className="textSide font-[ubuntu] text-[#eff7f7] px-2">I am a Polish-Romani 2D digital artist who has been roaming around the internet for the past decade or so.<br/>Even though I jam to almost everything, I adore Splittercore, Speedbreak, Polcore, and Brutal Slam Metal. <br/>I am hella into 2000's video games such as Postal 2 and Half life 2. I am terrible at video games regardless. <br/>Also, I love watching '70s-00s movies, mainly thrillers. Few of my favourite movies are Taxi Driver, ScarFace, and Pulp Fiction.</p>
+                            <p className="textSide font-[ubuntu] text-[#eff7f7] px-2">The name's Prost but most prefer to call me Cement Mix.<br/>AroAce Agender Male . xe//xir//pup//it . Eng//Pol<br/>I am a furry raver + metalhead who is also a self taught anime artist and a relatively new front-end dev.<br/>.ᐟ You can get to know me better by clicking on my "about me" page</p>
                             <p className="textMoveThree font-[ubuntu] text-[#8a9696] px-2 italic">This site is best view'd on desktop, however it is somewhat suitable for mobile.</p>   
                         </div>
                         
@@ -71,14 +80,14 @@ export default function Home() {
                     <div className="grid h-3/7 pt-1 grid-cols-3 gap-1"> 
                        
                         <div className="grid col-span-2 grid-row-3 gap-1 overflow-hidden">
-                            <div className="bg-linear-to-b from-[#3c4343] to-[#535c5c] row-span-2">
+                            <div className="inset-shadow-sm inset-shadow-[#3c4343] bg-linear-to-b from-[#3c4343] to-[#535c5c] row-span-2">
                                 <div className="bg-[#6e7979] text-[#eff7f7] font-[newScience] pt-1 pb-1 pl-2 items-center grid grid-cols-2 overflow-hidden border-l-2 border-t-2 border-r-2 border-[#3c4343] transition hover:bg-[#8a9696] duration-300 ease-in-out ">
                                     <p className="titleSideTwo">Kin List</p>
                                     <p className="flex justify-end items-end pr-2">⋮⋮⋮⋮</p>
                                 </div>
-                                <p className="textMoveFour font-[ubuntu] text-[#eff7f7] px-2 pt-1">I kin.... Travis Bickle (Taxi Driver), Kuromi (My Melody), Donnie Darko (Donnie Darko), Tyler Durden (Fight Club), Rainbow Dash (MLP)</p>
+                                <p className="textMoveFour font-[ubuntu] text-[#eff7f7] text-[13px] sm:text-base px-2 pt-1">I kin.... Travis Bickle (Taxi Driver), Kuromi (My Melody), Donnie Darko (Donnie Darko), Tyler Durden (Fight Club), Rainbow Dash (MLP)</p>
                             </div>
-                            <div className="bg-linear-to-b from-[#3c4343] to-[#535c5c] overflow-hidden">
+                            <div className="inset-shadow-sm inset-shadow-[#3c4343] bg-linear-to-b from-[#3c4343] to-[#535c5c] overflow-hidden">
                                 <div className="bg-[#6e7979] text-[#eff7f7] font-[newScience] pt-1 pb-1 items-center pl-2 grid grid-cols-2 border-l-2 border-t-2 border-r-2 border-[#3c4343] transition hover:bg-[#8a9696] duration-300 ease-in-out ">
                                     <p className="titleSideThree">Stamps</p>
                                     <p className="flex justify-end items-end pr-2">⋮⋮⋮⋮</p>
@@ -102,7 +111,7 @@ export default function Home() {
                             </div>
                         </div>
                        
-                        <div className="bg-linear-to-b from-[#3c4343] to-[#535c5c]">
+                        <div className="inset-shadow-sm inset-shadow-[#3c4343] bg-linear-to-b from-[#3c4343] to-[#535c5c]">
                                 <div className="bg-[#6e7979] text-[#eff7f7] font-[newScience] pt-1 pb-1 items-center pl-2 grid grid-cols-2 border-l-2 border-t-2 border-r-2 border-[#3c4343] transition hover:bg-[#8a9696] duration-300 ease-in-out ">
                                     <p className="titleSideTwo">My Button</p>
                                     <p className="flex justify-end items-end pr-2">⋮⋮⋮⋮</p>
