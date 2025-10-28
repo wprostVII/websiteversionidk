@@ -136,7 +136,7 @@ export default function Home() {
                 
             </div>
             
-             <p className="flex justify-center items-center pt-5 sm:pt-2 font-[newScience] text-colour5">Website Version 4.0</p>
+             <p className="flex justify-center items-center pt-5 sm:pt-2 font-[newScience] text-colour5">Copyright © wprostVII 2025. All rights reserved. // Website Version 4.0</p>
         </div>
     </div>
   );
