@@ -121,8 +121,8 @@ export default function Home() {
                                 <img src="https://i.ibb.co/GQxFwGmQ/button-finally.gif" alt="Button Image" className="w-[81px]"/>
                             </div>
                             <div className="flex justify-center items-center pt-5">
-                                <label>
-                                    <textarea name="88x31 button link" defaultValue={'<img src="https://i.ibb.co/GQxFwGmQ/button-finally.gif" alt="wprostVII-button" border="0">'} className="textMoveSix h-1/5 w-3/4 px-1 resize-none border-2 border-[#3c4343] bg-[#6e7979]"/>
+                                <label className="flex justify-center items-center">
+                                    <textarea name="88x31 button link" defaultValue={'<img src="https://i.ibb.co/GQxFwGmQ/button-finally.gif" alt="wprostVII-button" border="0">'} className="textMoveSix h-1/5 w-3/4 px-1 resize-none border-2 border-colour1 bg-colour3 text-custom-black"/>
                                 </label>
                                 
                             </div>
