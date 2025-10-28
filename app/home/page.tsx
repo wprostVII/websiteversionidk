@@ -12,25 +12,25 @@ export default function Home() {
         <div className="absolute block w-screen h-screen z-1">
                 <SnowFalling />
         </div>
-        <div className="bg-[#8a9696] sm:shadow-[0px_0_20px_rgba(0,0,0,0.5)] w-screen sm:w-6/7 md:w-3/4 lg:w-1/2 lg:w-min-1/2 h-screen z-2">
+        <div className="bg-colour4 sm:shadow-[0px_0_20px_rgba(0,0,0,0.5)] w-screen sm:w-6/7 md:w-3/4 lg:w-1/2 lg:w-min-1/2 h-screen z-2">
             
             <div className="flex justify-center items-center h-1/8">
                 <div className="flex justify-end items-end pr-2 bg-[url(/knightkneel.png)] bg-cover bg-right w-6/7 h-2/3">
-                <p className="font-[loosBlack] text-[#eff7f7] text-2xl">WprostVII</p>
+                <p className="font-[loosBlack] text-colour5 text-2xl">WprostVII</p>
                 </div>
             </div>
 
             <div className="grid grid-cols-5 gap-1 w-full h-4/5">
                 <div className="grid my-2 ml-2 gap-1 grid-rows-2">
-                    <div className="flex flex-col gap-1 bg-[#6e7979] px-1 font-[ubuntu]">
-                        <p className="flex pt-2 pb-1 font-[newScience] text-[#eff7f7]">Navigation</p>
-                        <Link href="/home" className="text-[#eff7f7] transition ease-in-out hover:bg-crimson-maybe">Home</Link><br/>
-                        <Link href="/home" className="text-[#eff7f7] transition ease-in-out hover:bg-crimson-maybe">About Me</Link><br/>
-                        <Link href="/home" className="text-[#eff7f7] transition ease-in-out hover:bg-crimson-maybe">Art</Link>
+                    <div className="flex flex-col gap-1 bg-colour3 px-1 font-[ubuntu]">
+                        <p className="flex pt-2 pb-1 font-[newScience] text-colour5">Navigation</p>
+                        <Link href="/home" className="text-colour5 transition ease-in-out hover:bg-crimson-maybe">Home</Link><br/>
+                        <Link href="/home" className="text-colour5 transition ease-in-out hover:bg-crimson-maybe">About Me</Link><br/>
+                        <Link href="/home" className="text-colour5 transition ease-in-out hover:bg-crimson-maybe">Art</Link>
                     </div>
-                    <div className="flex flex-col bg-[#6e7979] gap-2">
-                        <p className="flex pt-2 px-1 font-[newScience] text-[#eff7f7]">My Socials</p>
-                        <div className="flex flex-col gap-1 px-1 font-[ubuntu] text-[#eff7f7]">
+                    <div className="flex flex-col bg-colour3 gap-2">
+                        <p className="flex pt-2 px-1 font-[newScience] text-colour5">My Socials</p>
+                        <div className="flex flex-col gap-1 px-1 font-[ubuntu] text-colour5">
                             <Link href="https://x.com/wprost_VII" className="transition ease-in-out hover:bg-crimson-maybe">
                                 Xitter
                             </Link>
@@ -63,16 +63,16 @@ export default function Home() {
 
                 <div className="my-2 ml-5 mr-2 xs:ml-0 lg:ml-0 xs:mr-2 col-span-4 grid-rows-2 overflow-hidden">
 
-                    <div className="inset-shadow-sm inset-shadow-[#3c4343] bg-linear-to-b from-[#3c4343] to-[#535c5c] h-4/7">
-                        <div className="bg-[#6e7979] text-[#eff7f7] font-[newScience] pt-1 pb-1 pl-2 items-center grid grid-cols-2 border-l-2 border-t-2 border-r-2 border-[#3c4343] transition hover:bg-[#8a9696] duration-300 ease-in-out ">
+                    <div className="inset-shadow-sm inset-shadow-colour1 bg-linear-to-b from-colour1 to-colour2 h-4/7">
+                        <div className="bg-colour3 text-colour5 font-[newScience] pt-1 pb-1 pl-2 items-center grid grid-cols-2 border-l-2 border-t-2 border-r-2 border-[#3c4343] transition hover:bg-[#8a9696] duration-300 ease-in-out ">
                             <p className="titleSide">About me</p>
                             <p className="flex justify-end items-end pr-2">⋮⋮⋮⋮</p>
                         </div>
                         <div className="h-full overflow-hidden text-[13px] sm:text-base">
-                            <p className="textMove font-[ubuntu] text-[#eff7f7] pt-1 px-2">Welcome to my little corner of the internet! ˎˊ˗</p>
-                            <p className="textMoveTwo font-[ubuntu] text-[#8a9696] px-2">Feel free to navigate around my website.</p>
-                            <p className="textSide font-[ubuntu] text-[#eff7f7] px-2">The name's Prost but most prefer to call me Cement Mix.<br/>AroAce Agender Male . xe//xir//pup//it . Eng//Pol<br/>I am a furry raver + metalhead who is also a self taught anime artist and a relatively new front-end dev.<br/>.ᐟ You can get to know me better by clicking on my "about me" page</p>
-                            <p className="textMoveThree font-[ubuntu] text-[#8a9696] px-2 italic">This site is best view'd on desktop, however it is somewhat suitable for mobile.</p>   
+                            <p className="textMove font-[ubuntu] text-colour5 pt-1 px-2">Welcome to my little corner of the internet! ˎˊ˗</p>
+                            <p className="textMoveTwo font-[ubuntu] text-colour4 px-2">Feel free to navigate around my website.</p>
+                            <p className="textSide font-[ubuntu] text-colour5 px-2">The name's Prost but most prefer to call me Cement Mix.<br/>AroAce Agender Male . xe//xir//pup//it . Eng//Pol<br/>I am a furry raver + metalhead who is also a self taught anime artist and a relatively new front-end dev.<br/>.ᐟ You can get to know me better by clicking on my "about me" page</p>
+                            <p className="textMoveThree font-[ubuntu] text-colour4 px-2 italic">This site is best view'd on desktop, however it is somewhat suitable for mobile.</p>   
                         </div>
                         
                     </div>
@@ -80,15 +80,15 @@ export default function Home() {
                     <div className="grid h-3/7 pt-1 grid-cols-3 gap-1"> 
                        
                         <div className="grid col-span-2 grid-row-3 gap-1 overflow-hidden">
-                            <div className="inset-shadow-sm inset-shadow-[#3c4343] bg-linear-to-b from-[#3c4343] to-[#535c5c] row-span-2">
-                                <div className="bg-[#6e7979] text-[#eff7f7] font-[newScience] pt-1 pb-1 pl-2 items-center grid grid-cols-2 overflow-hidden border-l-2 border-t-2 border-r-2 border-[#3c4343] transition hover:bg-[#8a9696] duration-300 ease-in-out ">
+                            <div className="inset-shadow-sm inset-shadow-colour1 bg-linear-to-b from-colour1 to-colour2 row-span-2">
+                                <div className="bg-colour3 text-colour5 font-[newScience] pt-1 pb-1 pl-2 items-center grid grid-cols-2 overflow-hidden border-l-2 border-t-2 border-r-2 border-[#3c4343] transition hover:bg-[#8a9696] duration-300 ease-in-out ">
                                     <p className="titleSideTwo">Kin List</p>
                                     <p className="flex justify-end items-end pr-2">⋮⋮⋮⋮</p>
                                 </div>
-                                <p className="textMoveFour font-[ubuntu] text-[#eff7f7] text-[13px] sm:text-base px-2 pt-1">I kin.... Travis Bickle (Taxi Driver), Kuromi (My Melody), Donnie Darko (Donnie Darko), Tyler Durden (Fight Club), Rainbow Dash (MLP)</p>
+                                <p className="textMoveFour font-[ubuntu] text-colour5 text-[13px] sm:text-base px-2 pt-1">I kin.... Travis Bickle (Taxi Driver), Kuromi (My Melody), Donnie Darko (Donnie Darko), Tyler Durden (Fight Club), Rainbow Dash (MLP)</p>
                             </div>
-                            <div className="inset-shadow-sm inset-shadow-[#3c4343] bg-linear-to-b from-[#3c4343] to-[#535c5c] overflow-hidden">
-                                <div className="bg-[#6e7979] text-[#eff7f7] font-[newScience] pt-1 pb-1 items-center pl-2 grid grid-cols-2 border-l-2 border-t-2 border-r-2 border-[#3c4343] transition hover:bg-[#8a9696] duration-300 ease-in-out ">
+                            <div className="inset-shadow-sm inset-shadow-colour1 bg-linear-to-b from-colour1 to-colour2 overflow-hidden">
+                                <div className="bg-colour3 text-colour5 font-[newScience] pt-1 pb-1 items-center pl-2 grid grid-cols-2 border-l-2 border-t-2 border-r-2 border-[#3c4343] transition hover:bg-[#8a9696] duration-300 ease-in-out ">
                                     <p className="titleSideThree">Stamps</p>
                                     <p className="flex justify-end items-end pr-2">⋮⋮⋮⋮</p>
                                 </div>
@@ -111,12 +111,12 @@ export default function Home() {
                             </div>
                         </div>
                        
-                        <div className="inset-shadow-sm inset-shadow-[#3c4343] bg-linear-to-b from-[#3c4343] to-[#535c5c]">
-                                <div className="bg-[#6e7979] text-[#eff7f7] font-[newScience] pt-1 pb-1 items-center pl-2 grid grid-cols-2 border-l-2 border-t-2 border-r-2 border-[#3c4343] transition hover:bg-[#8a9696] duration-300 ease-in-out ">
+                        <div className="inset-shadow-sm inset-shadow-colour1 bg-linear-to-b from-colour1 to-colour2">
+                                <div className="bg-colour3 text-colour5 font-[newScience] pt-1 pb-1 items-center pl-2 grid grid-cols-2 border-l-2 border-t-2 border-r-2 border-[#3c4343] transition hover:bg-[#8a9696] duration-300 ease-in-out ">
                                     <p className="titleSideTwo">My Button</p>
                                     <p className="flex justify-end items-end pr-2">⋮⋮⋮⋮</p>
                                 </div>
-                            <p className="textMoveFive font-[ubuntu] text-[#eff7f7] px-2 pt-1">Add my button to your site!</p>
+                            <p className="textMoveFive font-[ubuntu] text-colour5 px-2 pt-1">Add my button to your site!</p>
                             <div className="flex justify-center items-center pt-5">
                                 <img src="https://i.ibb.co/GQxFwGmQ/button-finally.gif" alt="Button Image" className="w-[81px]"/>
                             </div>
@@ -136,7 +136,7 @@ export default function Home() {
                 
             </div>
             
-             <p className="flex justify-center items-center pt-5 sm:pt-2 font-[newScience] text-[#eff7f7]">Website Version 4.0</p>
+             <p className="flex justify-center items-center pt-5 sm:pt-2 font-[newScience] text-colour5">Website Version 4.0</p>
         </div>
     </div>
   );
