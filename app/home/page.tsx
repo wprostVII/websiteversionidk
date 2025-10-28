@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <div className="bg-[#535c5c] flex justify-center items-center h-screen w-screen z-0 overflow-hidden">
+    <div className="bg-[url(https://ibb.co/ycRQzVh4)] flex justify-center items-center h-screen w-screen z-0 overflow-hidden">
         <div className="absolute block w-screen h-screen z-1">
                 <SnowFalling />
         </div>
@@ -118,10 +118,13 @@ export default function Home() {
                                 </div>
                             <p className="textMoveFive font-[ubuntu] text-[#eff7f7] px-2 pt-1">Add my button to your site!</p>
                             <div className="flex justify-center items-center pt-5">
-                                <img src="/button.gif" alt="Button Image" className="w-[81px]"/>
+                                <img src="https://i.ibb.co/GQxFwGmQ/button-finally.gif" alt="Button Image" className="w-[81px]"/>
                             </div>
                             <div className="flex justify-center items-center pt-5">
-                                <textarea id="buttonThing" defaultValue={"Image URL goes here lorem lorem lorem lorem"} className="textMoveSix h-1/5 w-3/4 px-1 resize-none border-2 border-[#3c4343] bg-[#6e7979]"/>
+                                <label>
+                                    <textarea name="88x31 button link" defaultValue={'<img src="https://i.ibb.co/GQxFwGmQ/button-finally.gif" alt="wprostVII-button" border="0">'} className="textMoveSix h-1/5 w-3/4 px-1 resize-none border-2 border-[#3c4343] bg-[#6e7979]"/>
+                                </label>
+                                
                             </div>
                             
                             
