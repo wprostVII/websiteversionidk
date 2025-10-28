@@ -16,7 +16,7 @@ export default function Home() {
             
             <div className="flex justify-center items-center h-1/8">
                 <div className="flex justify-end items-end pr-2 bg-[url(/knightkneel.png)] bg-cover bg-right w-6/7 h-2/3">
-                <p className="font-[loosBlack] text-colour5 text-2xl">WprostVII</p>
+                <p className="font-[loosBlack] text-colour5 text-2xl">wprostVII</p>
                 </div>
             </div>
 
@@ -64,15 +64,15 @@ export default function Home() {
                 <div className="my-2 ml-5 mr-2 xs:ml-0 lg:ml-0 xs:mr-2 col-span-4 grid-rows-2 overflow-hidden">
 
                     <div className="inset-shadow-sm inset-shadow-colour1 bg-linear-to-b from-colour1 to-colour2 h-4/7">
-                        <div className="bg-colour3 text-colour5 font-[newScience] pt-1 pb-1 pl-2 items-center grid grid-cols-2 border-l-2 border-t-2 border-r-2 border-[#3c4343] transition hover:bg-[#8a9696] duration-300 ease-in-out ">
+                        <div className="bg-colour3 text-colour5 font-[newScience] pt-1 pb-1 pl-2 items-center grid grid-cols-2 border-l-2 border-t-2 border-r-2 border-colour1 transition hover:bg-colour4 duration-300 ease-in-out ">
                             <p className="titleSide">About me</p>
                             <p className="flex justify-end items-end pr-2">⋮⋮⋮⋮</p>
                         </div>
                         <div className="h-full overflow-hidden text-[13px] sm:text-base">
                             <p className="textMove font-[ubuntu] text-colour5 pt-1 px-2">Welcome to my little corner of the internet! ˎˊ˗</p>
-                            <p className="textMoveTwo font-[ubuntu] text-colour4 px-2">Feel free to navigate around my website.</p>
-                            <p className="textSide font-[ubuntu] text-colour5 px-2">The name's Prost but most prefer to call me Cement Mix.<br/>AroAce Agender Male . xe//xir//pup//it . Eng//Pol<br/>I am a furry raver + metalhead who is also a self taught anime artist and a relatively new front-end dev.<br/>.ᐟ You can get to know me better by clicking on my "about me" page</p>
-                            <p className="textMoveThree font-[ubuntu] text-colour4 px-2 italic">This site is best view'd on desktop, however it is somewhat suitable for mobile.</p>   
+                            <p className="textMoveTwo font-[ubuntu] text-colour4 px-2">Feel free to navigate around my website</p>
+                            <p className="textSide font-[ubuntu] text-colour5 px-2">The name's Prost but most prefer to call me Cement Mix<br/>AroAce Agender Male . xe//xir//pup//it . Eng//Pol<br/>I am a furry raver + metalhead who is also a self taught anime artist and a relatively new front-end dev.<br/>.ᐟ You can get to know me better by clicking on my "about me" page</p>
+                            <p className="textMoveThree font-[ubuntu] text-colour4 px-2 italic">This site is best view'd on desktop, however it is somewhat suitable for mobile</p>   
                         </div>
                         
                     </div>
@@ -81,14 +81,14 @@ export default function Home() {
                        
                         <div className="grid col-span-2 grid-row-3 gap-1 overflow-hidden">
                             <div className="inset-shadow-sm inset-shadow-colour1 bg-linear-to-b from-colour1 to-colour2 row-span-2">
-                                <div className="bg-colour3 text-colour5 font-[newScience] pt-1 pb-1 pl-2 items-center grid grid-cols-2 overflow-hidden border-l-2 border-t-2 border-r-2 border-[#3c4343] transition hover:bg-[#8a9696] duration-300 ease-in-out ">
+                                <div className="bg-colour3 text-colour5 font-[newScience] pt-1 pb-1 pl-2 items-center grid grid-cols-2 overflow-hidden border-l-2 border-t-2 border-r-2 border-colour1 transition hover:bg-colour4 duration-300 ease-in-out ">
                                     <p className="titleSideTwo">Kin List</p>
                                     <p className="flex justify-end items-end pr-2">⋮⋮⋮⋮</p>
                                 </div>
                                 <p className="textMoveFour font-[ubuntu] text-colour5 text-[13px] sm:text-base px-2 pt-1">I kin.... Travis Bickle (Taxi Driver), Kuromi (My Melody), Donnie Darko (Donnie Darko), Tyler Durden (Fight Club), Rainbow Dash (MLP)</p>
                             </div>
                             <div className="inset-shadow-sm inset-shadow-colour1 bg-linear-to-b from-colour1 to-colour2 overflow-hidden">
-                                <div className="bg-colour3 text-colour5 font-[newScience] pt-1 pb-1 items-center pl-2 grid grid-cols-2 border-l-2 border-t-2 border-r-2 border-[#3c4343] transition hover:bg-[#8a9696] duration-300 ease-in-out ">
+                                <div className="bg-colour3 text-colour5 font-[newScience] pt-1 pb-1 items-center pl-2 grid grid-cols-2 border-l-2 border-t-2 border-r-2 border-colour1 transition hover:bg-colour4 duration-300 ease-in-out ">
                                     <p className="titleSideThree">Stamps</p>
                                     <p className="flex justify-end items-end pr-2">⋮⋮⋮⋮</p>
                                 </div>
@@ -112,7 +112,7 @@ export default function Home() {
                         </div>
                        
                         <div className="inset-shadow-sm inset-shadow-colour1 bg-linear-to-b from-colour1 to-colour2">
-                                <div className="bg-colour3 text-colour5 font-[newScience] pt-1 pb-1 items-center pl-2 grid grid-cols-2 border-l-2 border-t-2 border-r-2 border-[#3c4343] transition hover:bg-[#8a9696] duration-300 ease-in-out ">
+                                <div className="bg-colour3 text-colour5 font-[newScience] pt-1 pb-1 items-center pl-2 grid grid-cols-2 border-l-2 border-t-2 border-r-2 border-colour1 transition hover:bg-colour4 duration-300 ease-in-out ">
                                     <p className="titleSideTwo">My Button</p>
                                     <p className="flex justify-end items-end pr-2">⋮⋮⋮⋮</p>
                                 </div>
@@ -136,7 +136,7 @@ export default function Home() {
                 
             </div>
             
-             <p className="flex justify-center items-center pt-5 sm:pt-2 font-[newScience] text-colour5">Copyright © wprostVII 2025. All rights reserved. // Website Version 4.0</p>
+             <p className="flex justify-center items-center pt-5 sm:pt-2 font-[newScience] text-[10px] sm:text-base text-colour5">Copyright © wprostVII 2025. All rights reserved. // Website Version 4.0</p>
         </div>
     </div>
   );
