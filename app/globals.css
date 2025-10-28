@@ -5,11 +5,11 @@
   --color-really-light: rgb(220, 230, 229);
   --color-bluyay: rgb(157, 180, 180);
   --color-crimson-maybe: rgb(99, 45, 66);
-  --color1: rgb(62, 66, 69);
-  --color2: rgb(85, 90, 94);
-  --color3: rgb(113, 120, 124);
-  --color4: RGB(141, 148, 153);
-  --color5: rgb(247, 248, 231);
+  --color-colour1: rgb(62, 66, 69);
+  --color-colour2: rgb(85, 90, 94);
+  --color-colour3: rgb(113, 120, 124);
+  --color-colour4: rgb(141, 148, 153);
+  --color-colour5: rgb(247, 248, 231);
   --custom-shadow: 0px 1px 0px rgba(220, 230, 229, 1),
   1px 0px 0px rgba(220, 230, 229, 1),
   -1px 0px 0px rgba(220, 230, 229, 1),
