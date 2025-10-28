@@ -2,7 +2,7 @@
 
 export default function SnowFalling() {
   return (
-      <div className="fixed -top-30 w-screen h-screen text-6xl text-white">
+      <div className="fixed -top-30 w-screen h-screen text-6xl text-colour5">
         <div className="marqueeDown float-left p-1" style={{animationDelay: '0,5s', animationDuration: '8s'}}>.</div>
         <div className="marqueeDown float-left p-1" style={{animationDelay: '1s', animationDuration: '5s'}}>.</div>
         <div className="marqueeDown float-left p-1" style={{animationDelay: '4.5s', animationDuration: '7s'}}>.</div>
