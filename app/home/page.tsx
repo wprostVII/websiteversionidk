@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <div className="bg-[url(https://ibb.co/ycRQzVh4)] flex justify-center items-center h-screen w-screen z-0 overflow-hidden">
+    <div className="bg-[url(/bg2.png)] bg-cover flex justify-center items-center h-screen w-screen z-0 overflow-hidden">
         <div className="absolute block w-screen h-screen z-1">
                 <SnowFalling />
         </div>
