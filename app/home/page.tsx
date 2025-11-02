@@ -22,38 +22,38 @@ export default function Home() {
 
             <div className="grid grid-cols-5 gap-1 w-full h-4/5">
                 <div className="grid my-2 ml-2 gap-1 grid-rows-2">
-                    <div className="flex flex-col gap-1 bg-colour3 px-1 font-[ubuntu]">
-                        <p className="flex pt-2 pb-1 font-[newScience] text-colour5">Navigation</p>
-                        <Link href="/home" className="text-colour5 transition ease-in-out hover:bg-crimson-maybe">Home</Link><br/>
-                        <Link href="/home" className="text-colour5 transition ease-in-out hover:bg-crimson-maybe">About Me</Link><br/>
-                        <Link href="/home" className="text-colour5 transition ease-in-out hover:bg-crimson-maybe">Art</Link>
+                    <div className="flex flex-col bg-colour3 border-2 border-colour2 font-[ubuntu]">
+                        <p className="flex p-1 font-[newScience] bg-colour2 text-colour5">Navigation</p>
+                        <Link href="/home" className="text-colour5 px-1 p-[3px] transition ease-in-out hover:bg-crimson-maybe hover:italic">≫ Home</Link><br/>
+                        <Link href="/home" className="text-colour5 px-1 p-[3px] transition ease-in-out hover:bg-crimson-maybe hover:italic">≫ About Me</Link><br/>
+                        <Link href="/home" className="text-colour5 px-1 p-[3px] transition ease-in-out hover:bg-crimson-maybe hover:italic">≫ Art</Link>
                     </div>
-                    <div className="flex flex-col bg-colour3 gap-2">
-                        <p className="flex pt-2 px-1 font-[newScience] text-colour5">My Socials</p>
-                        <div className="flex flex-col gap-1 px-1 font-[ubuntu] text-colour5">
-                            <Link href="https://x.com/wprost_VII" className="transition ease-in-out hover:bg-crimson-maybe">
-                                Xitter
+                    <div className="flex flex-col bg-colour3 border-colour2 border-2">
+                        <p className="flex p-1 px-1 font-[newScience] text-colour5 bg-colour2">My Socials</p>
+                        <div className="flex flex-col font-[ubuntu] text-colour5">
+                            <Link href="https://x.com/wprost_VII" className="transition ease-in-out px-1 p-[3px] hover:bg-crimson-maybe hover:italic">
+                                ≫ Xitter
                             </Link>
-                            <Link href="https://www.instagram.com/wprostvii/" className="transition ease-in-out hover:bg-crimson-maybe">
-                                Instagram
+                            <Link href="https://www.instagram.com/wprostvii/" className="transition ease-in-out px-1 p-[3px] hover:bg-crimson-maybe hover:italic">
+                                ≫ Instagram
                             </Link>
-                            <Link href=" " className="transition ease-in-out hover:bg-crimson-maybe">
-                                Tiktok
+                            <Link href="https://www.tiktok.com/@wprostvii" className="transition ease-in-out px-1 p-[3px] hover:bg-crimson-maybe hover:italic">
+                                ≫ Tiktok
                             </Link>
-                            <Link href="https://www.tumblr.com/wprostvii" className="transition ease-in-out hover:bg-crimson-maybe">
-                                Tumblr
+                            <Link href="https://www.tumblr.com/wprostvii" className="transition ease-in-out px-1 p-[3px] hover:bg-crimson-maybe hover:italic">
+                                ≫ Tumblr
                             </Link>
-                            <Link href=" " className="transition ease-in-out hover:bg-crimson-maybe">
-                                Reddit
+                            <Link href="https://www.reddit.com/user/wprostVII/" className="transition ease-in-out px-1 p-[3px] hover:bg-crimson-maybe hover:italic">
+                                ≫ Reddit
                             </Link>
-                            <Link href=" " className="transition ease-in-out hover:bg-crimson-maybe">
-                                Blusky
+                            <Link href="https://bsky.app/profile/wprostvii.bsky.social" className="transition ease-in-out px-1 p-[3px] hover:bg-crimson-maybe hover:italic">
+                                ≫ Bluesky
                             </Link>
-                            <Link href="https://steamcommunity.com/id/wprostvii/" className="transition ease-in-out hover:bg-crimson-maybe">
-                                Steam
+                            <Link href="https://steamcommunity.com/id/wprostvii/" className="transition ease-in-out px-1 p-[3px] hover:bg-crimson-maybe hover:italic">
+                                ≫ Steam
                             </Link>
-                            <Link href=" " className="transition ease-in-out hover:bg-crimson-maybe">
-                                Github
+                            <Link href="https://github.com/wprostVII" className="transition ease-in-out px-1 p-[3px] pb-[5px] hover:bg-crimson-maybe hover:italic">
+                                ≫ Github
                             </Link>
                         </div>
                             
@@ -70,8 +70,8 @@ export default function Home() {
                         </div>
                         <div className="h-full overflow-hidden text-[13px] sm:text-base">
                             <p className="textMove font-[ubuntu] text-colour5 pt-1 px-2">Welcome to my little corner of the internet! ˎˊ˗</p>
-                            <p className="textMoveTwo font-[ubuntu] text-colour4 px-2">Feel free to navigate around my website</p>
-                            <p className="textSide font-[ubuntu] text-colour5 px-2">The name's Prost but most prefer to call me Cement Mix<br/>AroAce Agender Male . xe//xir//pup//it . Eng//Pol<br/>I am a furry raver + metalhead who is also a self taught anime artist and a relatively new front-end dev.<br/>.ᐟ You can get to know me better by clicking on my "about me" page</p>
+                            <p className="textMoveTwo font-[ubuntu] text-colour4 px-2">Feel free to navigate around my website </p>
+                            <p className="textSide font-[ubuntu] text-colour5 px-2">The name's Prost but most prefer to call me Cement Mix<br/>AroAce Agender Male . xe // xir // pup // it . Eng // Pol<br/>I am a furry raver + metalhead who is also a self taught anime artist and a relatively new front-end dev.<br/>.ᐟ You can get to know me better by clicking on my "about me" page</p>
                             <p className="textMoveThree font-[ubuntu] text-colour4 px-2 italic">This site is best view'd on desktop, however it is somewhat suitable for mobile</p>   
                         </div>
                         
