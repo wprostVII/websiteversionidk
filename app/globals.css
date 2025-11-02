@@ -1,5 +1,8 @@
 @import "tailwindcss";
 
+html {
+  background-color: rgb(62, 66, 69);
+}
 @theme {
   --color-custom-black: rgb(25, 29, 30);
   --color-really-light: rgb(220, 230, 229);
@@ -54,7 +57,7 @@
 
 @keyframes marqueeDown {
   0% { transform: translateY(-400%);}
-  100% { transform: translateY(1400%);}
+  100% { transform: translateY(2000%);}
 }
 
 @layer components {
@@ -92,6 +95,6 @@
     animation: marquee 20s linear infinite;
   }
   .marqueeDown {
-    animation: marqueeDown 3s linear infinite;
+    animation: marqueeDown 10s linear infinite;
   }
 }
