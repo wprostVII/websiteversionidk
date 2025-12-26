@@ -40,7 +40,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${loosBlack.variable} ${newScience.variable} ${angelWish.variable} antialiased`}
+        className={`${loosBlack.variable} ${newScience.variable} ${angelWish.variable} ${ubuntu.variable}antialiased`}
       >
         {children}
       </body>

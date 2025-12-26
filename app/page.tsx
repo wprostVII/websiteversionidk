@@ -10,7 +10,7 @@ export default function Enter() {
           <div className="absolute bottom-20 right-5 md:right-10 text-right text-custom-black z-40">
 
             <p className="font-['angelWish'] text-shadow-(--custom-shadow) sm:text-shadow-none text-[6rem] md:text-[8rem]">wprostVII</p>
-            <p className="font-['newScience'] text-shadow-(--custom-shadow) sm:text-shadow-none text-lg md:text-xl">also known as "Cement Mix"</p>
+            <p className="font-['newScience'] text-shadow-(--custom-shadow) sm:text-shadow-none text-lg md:text-xl">also known as &quot;Cement Mix&quot;</p>
             
             <Link href="/home" className="mr-5 font-['loosBlack'] text-shadow-(--custom-shadow) sm:text-shadow-none  hover:text-crimson-maybe">Enter</Link>
       

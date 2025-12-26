@@ -95,7 +95,7 @@ export default function artPage() {
                                     <p className="titleSideTwo">TOS</p>
                                     <p className="flex justify-end items-end pr-2">⋮⋮⋮⋮</p>
                                 </div>
-                                <p className="textMoveFour font-[ubuntu] text-colour5 text-[13px] sm:text-base px-2 pt-1">I don't do refunds unless I cancel the commission and if I do cancel, I will refund 100%<br/>I accept payment after sketch<br/>I only accept paypal, kofi, and steam games/credit</p>
+                                <p className="textMoveFour font-[ubuntu] text-colour5 text-[13px] sm:text-base px-2 pt-1">I don&apos;t do refunds unless I cancel the commission and if I do cancel, I will refund 100%<br/>I accept payment after sketch<br/>I only accept paypal, kofi, and steam games/credit</p>
                             </div>
                             <div className="row-span-1 inset-shadow-sm inset-shadow-colour1 bg-linear-to-b from-colour1 to-colour2">
                                 <div className="bg-colour3 text-colour5 font-[newScience] pt-1 pb-1 pl-2 items-center grid grid-cols-2 overflow-hidden border-l-2 border-t-2 border-r-2 border-colour1 transition hover:bg-colour4 duration-300 ease-in-out">

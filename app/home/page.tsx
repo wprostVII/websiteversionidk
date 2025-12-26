@@ -74,8 +74,8 @@ export default function Home() {
                         <div className="h-full overflow-hidden text-[13px] sm:text-base">
                             <p className="textMove font-[ubuntu] text-colour5 pt-1 px-2">Welcome to my little corner of the internet! ˎˊ˗</p>
                             <p className="textMoveTwo font-[ubuntu] text-colour4 px-2">Feel free to navigate around my website </p>
-                            <p className="textSide font-[ubuntu] text-colour5 px-2">The name's Prost but most prefer to call me Cement Mix<br/>AroAce Agender Male . xe // xir // pup // it . Eng // Pol<br/>I am a furry raver + metalhead who is also a self taught anime artist and a relatively new front-end dev<br/>.ᐟ You can get to know me better by clicking on my "about me" page</p>
-                            <p className="textMoveThree font-[ubuntu] text-colour4 px-2 italic">This site is best view'd on a 1920 x 1080 (125% scale) desktop with the midori browser. Mobile is not supported :[</p>   
+                            <p className="textSide font-[ubuntu] text-colour5 px-2">The name&apos;s Prost but most prefer to call me Cement Mix<br/>AroAce Agender Male . xe // xir // pup // it . Eng // Pol<br/>I am a furry raver + metalhead who is also a self taught anime artist and a relatively new front-end dev<br/>.ᐟ You can get to know me better by clicking on my &quot;about me&quot; page</p>
+                            <p className="textMoveThree font-[ubuntu] text-colour4 px-2 italic">This site is best view&apos;d on a 1920 x 1080 (125% scale) desktop with the midori browser. Mobile is not supported :[</p>   
                         </div>
                         
                     </div>
