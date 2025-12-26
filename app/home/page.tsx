@@ -15,8 +15,11 @@ export default function Home() {
         <div className="bg-colour4 sm:shadow-[0px_0_20px_rgba(0,0,0,0.5)] w-screen sm:w-6/7 md:w-3/4 lg:w-1/2 lg:w-min-1/2 h-screen z-2">
             
             <div className="flex justify-center items-center h-1/8">
-                <div className="flex justify-end items-end pr-2 bg-[url(/knightkneel.png)] bg-cover bg-right w-6/7 h-2/3">
-                <p className="font-[loosBlack] text-colour5 text-2xl">wprostVII</p>
+                <div className="flex justify-start items-end pl-2 bg-colour3 w-5/7 h-2/3">
+                <p className="font-[loosBlack] text-colour4 text-5xl">Home</p>
+                    <div className="flex justify-end items-end pr-2 w-full">
+                        <p className="font-[newScience] text-colour5 text-2xl">:3</p>
+                    </div>
                 </div>
             </div>
 
@@ -25,8 +28,8 @@ export default function Home() {
                     <div className="flex flex-col bg-colour3 border-2 border-colour2 font-[ubuntu]">
                         <p className="flex p-1 font-[newScience] bg-colour2 text-colour5">Navigation</p>
                         <Link href="/home" className="text-colour5 px-1 p-[3px] transition ease-in-out hover:bg-crimson-maybe hover:italic">≫ Home</Link><br/>
-                        <Link href="/home" className="text-colour5 px-1 p-[3px] transition ease-in-out hover:bg-crimson-maybe hover:italic">≫ About Me</Link><br/>
-                        <Link href="/home" className="text-colour5 px-1 p-[3px] transition ease-in-out hover:bg-crimson-maybe hover:italic">≫ Art</Link>
+                        <Link href="/about-me" className="text-colour5 px-1 p-[3px] transition ease-in-out hover:bg-crimson-maybe hover:italic">≫ About Me</Link><br/>
+                        <Link href="/art" className="text-colour5 px-1 p-[3px] transition ease-in-out hover:bg-crimson-maybe hover:italic">≫ Art</Link>
                     </div>
                     <div className="flex flex-col bg-colour3 border-colour2 border-2">
                         <p className="flex p-1 px-1 font-[newScience] text-colour5 bg-colour2">My Socials</p>
@@ -46,8 +49,8 @@ export default function Home() {
                             <Link href="https://www.reddit.com/user/wprostVII/" className="transition ease-in-out px-1 p-[3px] hover:bg-crimson-maybe hover:italic">
                                 ≫ Reddit
                             </Link>
-                            <Link href="https://bsky.app/profile/wprostvii.bsky.social" className="transition ease-in-out px-1 p-[3px] hover:bg-crimson-maybe hover:italic">
-                                ≫ Bluesky
+                            <Link href="https://wprostvii.straw.page" className="transition ease-in-out px-1 p-[3px] hover:bg-crimson-maybe hover:italic">
+                                ≫ Strawpage
                             </Link>
                             <Link href="https://steamcommunity.com/id/wprostvii/" className="transition ease-in-out px-1 p-[3px] hover:bg-crimson-maybe hover:italic">
                                 ≫ Steam
@@ -64,15 +67,15 @@ export default function Home() {
                 <div className="my-2 ml-5 mr-2 xs:ml-0 lg:ml-0 xs:mr-2 col-span-4 grid-rows-2 overflow-hidden">
 
                     <div className="inset-shadow-sm inset-shadow-colour1 bg-linear-to-b from-colour1 to-colour2 h-4/7">
-                        <div className="bg-colour3 text-colour5 font-[newScience] pt-1 pb-1 pl-2 items-center grid grid-cols-2 border-l-2 border-t-2 border-r-2 border-colour1 transition hover:bg-colour4 duration-300 ease-in-out ">
+                        <div className="bg-colour3 text-colour5 font-[newScience] pt-1 pb-1 pl-2 items-center grid grid-cols-2 border-l-2 border-t-2 border-r-2 border-colour1 transition hover:bg-colour4 duration-300 ease-in-out">
                             <p className="titleSide">About me</p>
                             <p className="flex justify-end items-end pr-2">⋮⋮⋮⋮</p>
                         </div>
                         <div className="h-full overflow-hidden text-[13px] sm:text-base">
                             <p className="textMove font-[ubuntu] text-colour5 pt-1 px-2">Welcome to my little corner of the internet! ˎˊ˗</p>
                             <p className="textMoveTwo font-[ubuntu] text-colour4 px-2">Feel free to navigate around my website </p>
-                            <p className="textSide font-[ubuntu] text-colour5 px-2">The name's Prost but most prefer to call me Cement Mix<br/>AroAce Agender Male . xe // xir // pup // it . Eng // Pol<br/>I am a furry raver + metalhead who is also a self taught anime artist and a relatively new front-end dev.<br/>.ᐟ You can get to know me better by clicking on my "about me" page</p>
-                            <p className="textMoveThree font-[ubuntu] text-colour4 px-2 italic">This site is best view'd on desktop, however it is somewhat suitable for mobile</p>   
+                            <p className="textSide font-[ubuntu] text-colour5 px-2">The name's Prost but most prefer to call me Cement Mix<br/>AroAce Agender Male . xe // xir // pup // it . Eng // Pol<br/>I am a furry raver + metalhead who is also a self taught anime artist and a relatively new front-end dev<br/>.ᐟ You can get to know me better by clicking on my "about me" page</p>
+                            <p className="textMoveThree font-[ubuntu] text-colour4 px-2 italic">This site is best view'd on a 1920 x 1080 (125% scale) desktop with the midori browser. Mobile is not supported :[</p>   
                         </div>
                         
                     </div>
@@ -81,14 +84,14 @@ export default function Home() {
                        
                         <div className="grid col-span-2 grid-row-3 gap-1 overflow-hidden">
                             <div className="inset-shadow-sm inset-shadow-colour1 bg-linear-to-b from-colour1 to-colour2 row-span-2">
-                                <div className="bg-colour3 text-colour5 font-[newScience] pt-1 pb-1 pl-2 items-center grid grid-cols-2 overflow-hidden border-l-2 border-t-2 border-r-2 border-colour1 transition hover:bg-colour4 duration-300 ease-in-out ">
+                                <div className="bg-colour3 text-colour5 font-[newScience] pt-1 pb-1 pl-2 items-center grid grid-cols-2 overflow-hidden border-l-2 border-t-2 border-r-2 border-colour1 transition hover:bg-colour4 duration-300 ease-in-out">
                                     <p className="titleSideTwo">Kin List</p>
                                     <p className="flex justify-end items-end pr-2">⋮⋮⋮⋮</p>
                                 </div>
-                                <p className="textMoveFour font-[ubuntu] text-colour5 text-[13px] sm:text-base px-2 pt-1">I kin.... Travis Bickle (Taxi Driver), Kuromi (My Melody), Donnie Darko (Donnie Darko), Tyler Durden (Fight Club), Rainbow Dash (MLP)</p>
+                                <p className="textMoveFour font-[ubuntu] text-colour5 text-[13px] sm:text-base px-2 pt-1">I kin... Travis Bickle (Taxi Driver), Kuromi (My Melody), Donnie Darko (Donnie Darko), Tyler Durden (Fight Club), Rainbow Dash (MLP)</p>
                             </div>
                             <div className="inset-shadow-sm inset-shadow-colour1 bg-linear-to-b from-colour1 to-colour2 overflow-hidden">
-                                <div className="bg-colour3 text-colour5 font-[newScience] pt-1 pb-1 items-center pl-2 grid grid-cols-2 border-l-2 border-t-2 border-r-2 border-colour1 transition hover:bg-colour4 duration-300 ease-in-out ">
+                                <div className="bg-colour3 text-colour5 font-[newScience] pt-1 pb-1 items-center pl-2 grid grid-cols-2 border-l-2 border-t-2 border-r-2 border-colour1 transition hover:bg-colour4 duration-300 ease-in-out">
                                     <p className="titleSideThree">Stamps</p>
                                     <p className="flex justify-end items-end pr-2">⋮⋮⋮⋮</p>
                                 </div>
@@ -96,47 +99,51 @@ export default function Home() {
                                     <img src="https://i.postimg.cc/9Qxn2nLG/peter.gif" className="w-[90px]"/>
                                     <img src="https://i.postimg.cc/MpZFhSmn/lmaooo.png" className="w-[90px]"/>
                                     <img src="https://i.postimg.cc/TPpH3Js9/gman-hehe.webp" className="w-[90px]"/>
+                                    <img src="https://i.postimg.cc/QxL2SQ3q/tumblr-d2a108f7b0ba127b722504f5ccb91102-625e996a-250.webp" className="w-[90px]"/>
                                     <img src="https://i.postimg.cc/4x8SGSW8/ehhahaha.webp" className="w-[90px]"/>
                                     <img src="https://i.postimg.cc/t4RMLjNY/tumblr-8db257366fc8585c17164cf803edc194-7d010181-100.jpg" className="w-[90px]"/>
                                     <img src="https://i.postimg.cc/SxZv4vgz/d9qkrcc-56d1d473-812a-4c0c-bba1-1be067863171.png" className="w-[90px]"/>
                                     <img src="https://i.postimg.cc/SxQvwhf8/308d7d92.gif" className="w-[90px]"/>
+                                    <img src="https://i.postimg.cc/TY8zQV69/tumblr-213849fb9ba0f9349c9b88b5b35ea22a-b31044cc-250.webp" className="w-[90px]"/>
                                     <img src="https://i.postimg.cc/Gm35ZCxv/748a0067.png" className="w-[90px]"/>
                                     <img src="https://i.postimg.cc/htC5n52Q/bad-apple.webp" className="w-[90px]"/>
                                     <img src="https://i.postimg.cc/vZ8Npstm/problem-detected.gif" className="w-[90px]"/>
+                                    <img src="https://i.postimg.cc/sDFkKYr4/tumblr-10b2acad2ff187723181833a689c9086-26f68e2c-100.png" className="w-[90px]"/>
                                     <img src="https://i.postimg.cc/T3k4x4ts/the-thing-idk.webp" className="w-[90px]"/>
                                     <img src="https://i.postimg.cc/bw6BPBm0/tumblr-321c12238b371cb299e99140d7735c53-63fb669e-250.webp" className="w-[90px]"/>
                                     <img src="https://i.postimg.cc/mgd545mK/MR-WHITE.webp" className="w-[90px]"/>
+                                    <img src="https://i.postimg.cc/Nfh3b6c2/tumblr-0d13ea09664fcfcf8b09f0b65eb5c4fb-eab0d48a-100.webp" className="w-[90px]"/>
                                 </div>
                                 
                             </div>
                         </div>
                        
                         <div className="inset-shadow-sm inset-shadow-colour1 bg-linear-to-b from-colour1 to-colour2">
-                                <div className="bg-colour3 text-colour5 font-[newScience] pt-1 pb-1 items-center pl-2 grid grid-cols-2 border-l-2 border-t-2 border-r-2 border-colour1 transition hover:bg-colour4 duration-300 ease-in-out ">
-                                    <p className="titleSideTwo">My Button</p>
-                                    <p className="flex justify-end items-end pr-2">⋮⋮⋮⋮</p>
-                                </div>
-                            <p className="textMoveFive font-[ubuntu] text-colour5 px-2 pt-1">Add my button to your site!</p>
+                            <div className="bg-colour3 text-colour5 font-[newScience] pt-1 pb-1 items-center pl-2 grid grid-cols-2 border-l-2 border-t-2 border-r-2 border-colour1 transition hover:bg-colour4 duration-300 ease-in-out ">
+                                <p className="titleSideTwo">My Button</p>
+                                <p className="flex justify-end items-end pr-2">⋮⋮⋮⋮</p>
+                            </div>
+                            <p className="textMoveFive font-[ubuntu] text-colour5 px-2 pt-1">Add my button to your site to link me!</p>
                             <div className="flex justify-center items-center pt-5">
-                                <img src="https://i.ibb.co/GQxFwGmQ/button-finally.gif" alt="Button Image" className="w-[81px]"/>
+                                <img src="https://i.postimg.cc/qR6qDT9k/button-finally.gif" alt="Button Image" className="w-[88px] h-[31px]"/>
                             </div>
                             <div className="flex justify-center items-center pt-5">
                                 <label className="flex justify-center items-center">
-                                    <textarea name="88x31 button link" defaultValue={'<img src="https://i.ibb.co/GQxFwGmQ/button-finally.gif" alt="wprostVII-button" border="0">'} className="textMoveSix h-1/5 w-3/4 px-1 resize-none border-2 border-colour1 bg-colour3 text-custom-black"/>
+                                    <textarea name="88x31 button link" defaultValue={'<a href="https://www.wprostvii.com"><img src="https://i.postimg.cc/qR6qDT9k/button-finally.gif" alt="wprostVII button" border="0"></a>'} className="textMoveSix h-1/5 w-3/4 px-1 resize-none border-2 border-colour1 bg-colour3 text-custom-black"/>
                                 </label>
-                                
                             </div>
-                            
-                            
-                            
                         </div>
 
                     </div>
+                    
                 </div>
-                
+
+                 
             </div>
-            
-             <p className="flex justify-center items-center pt-5 sm:pt-2 font-[newScience] text-[10px] sm:text-base text-colour5">Copyright © wprostVII 2025. All rights reserved. // Website Version 4.0</p>
+            <div className="grid grid-rows-5">
+                <p className="flex justify-center items-center pt-5 sm:pt-2 font-[newScience] text-[10px] sm:text-base text-colour5">Copyright © wprostVII 2025. All rights reserved. // Website Version 4.0</p>
+            </div> 
+             
         </div>
     </div>
   );
