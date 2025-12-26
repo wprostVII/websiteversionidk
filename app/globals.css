@@ -3,6 +3,10 @@
 html {
   background-color: rgb(62, 66, 69);
 }
+::selection {
+  color: rgb(99, 45, 66);
+  background: rgb(220, 230, 229);
+}
 @theme {
   --color-custom-black: rgb(25, 29, 30);
   --color-really-light: rgb(220, 230, 229);
@@ -23,7 +27,10 @@ html {
   -1px -1px 0px rgba(220, 230, 229, 1);
 }
 :root {
-  cursor: url("/KT6.cur"), auto;
+  cursor: url("/cursors/auto.png"), auto;
+}
+a:hover {
+  cursor: url("/cursors/pointer.png"), pointer;
 }
 @keyframes movingSides {
     0% { transform: translateX(10px); opacity: 0;}
@@ -51,13 +58,19 @@ html {
     100% { transform: translateY(0); opacity: 1;}
 }
 @keyframes marquee {
-  0% { transform: translateX(220%);}
-  100% { transform: translateX(-220%);}
+  0% { transform: translateX(260%);}
+  100% { transform: translateX(-300%);}
 }
 
 @keyframes marqueeDown {
   0% { transform: translateY(-400%);}
-  100% { transform: translateY(2000%);}
+  100% { transform: translateY(3000%);}
+}
+
+@keyframes bounce {
+  0% {transform: translateX(-50%);}
+  50% {transform: translateX(50%);}
+  100% {transform: translateX(-50%);}
 }
 
 @layer components {
@@ -70,8 +83,17 @@ html {
   .titleSideThree {
     animation: movingSides 2s ;
   }
+  .titleSideFour {
+    animation: movingSides 2.5s ;
+  }
+  .titleSideFive {
+    animation: movingSides 3s ;
+  }
   .textSide {
     animation: movingSides2 3s ;
+  }
+  .textSideTwo {
+    animation: movingSides2 2.5s ;
   }
   .textMove {
     animation: movingText 3s ;
@@ -95,6 +117,9 @@ html {
     animation: marquee 20s linear infinite;
   }
   .marqueeDown {
-    animation: marqueeDown 10s linear infinite;
+    animation: marqueeDown 25s linear infinite;
+  }
+  .bounce {
+    animation: bounce 8s ease-in-out infinite;
   }
 }
